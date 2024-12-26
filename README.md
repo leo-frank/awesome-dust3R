@@ -1,6 +1,6 @@
-# Awesome 3D Gaussian Splatting Resources 
+# Awesome Dust3R Resources 
 
-A curated list of papers and open-source resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
+A curated list of papers and open-source resources focused on Dust3R, intended to keep pace with the anticipated surge of research in the coming months. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
 
 ## Seminal Paper:
 ### DUSt3R: Geometric 3D Vision Made Easy
