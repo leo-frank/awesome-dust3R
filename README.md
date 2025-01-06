@@ -15,6 +15,17 @@ Multi-view stereo reconstruction (MVS) in the wild requires to first estimate th
 
 ## Recent Papers:
 
+### MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision
+
+**Authors**: Ruicheng Wang, Sicheng Xu, Cassie Dai, Jianfeng Xiang, Yu Deng, Xin Tong, Jiaolong Yang
+<details span>
+<summary><b>Abstract</b></summary>
+We present MoGe, a powerful model for recovering 3D geometry from monocular open-domain images. Given a single image, our model directly predicts a 3D point map of the captured scene with an affine-invariant representation, which is agnostic to true global scale and shift. This new representation precludes ambiguous supervision in training and facilitate effective geometry learning. Furthermore, we propose a set of novel global and local geometry supervisions that empower the model to learn high-quality geometry. These include a robust, optimal, and efficient point cloud alignment solver for accurate global shape learning, and a multi-scale local geometry loss promoting precise local geometry supervision. We train our model on a large, mixed dataset and demonstrate its strong generalizability and high accuracy. In our comprehensive evaluation on diverse unseen datasets, our model significantly outperforms state-of-the-art methods across all tasks including monocular estimation of 3D point map, depth map, and camera field of view
+</details>
+
+[📄Paper ](http://arxiv.org/abs/2409.19152)
+
+
 ### MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion
 
 **Authors**: Bardienus Duisterhof, Lojze Zust, Philippe Weinzaepfel, Vincent Leroy, Yohann Cabon, Jerome Revaud
@@ -76,6 +87,16 @@ Pairwise pose estimation from images with little or no overlap is an open challe
 </details>
 
 [📄Paper ](http://arxiv.org/abs/2412.16155)
+
+### DAS3R: Dynamics-Aware Gaussian Splatting for Static Scene Reconstruction
+
+**Authors**: Kai Xu, Tze Ho Elden Tse, Jizong Peng, Angela Yao
+<details span>
+<summary><b>Abstract</b></summary>
+We propose a novel framework for scene decomposition and static background reconstruction from everyday videos. By integrating the trained motion masks and modeling the static scene as Gaussian splats with dynamics-aware optimization, our method achieves more accurate background reconstruction results than previous works. Our proposed method is termed DAS3R, an abbreviation for Dynamics-Aware Gaussian Splatting for Static Scene Reconstruction. Compared to existing methods, DAS3R is more robust in complex motion scenarios, capable of handling videos where dynamic objects occupy a significant portion of the scene, and does not require camera pose inputs or point cloud data from SLAM-based
+</details>
+
+[📄Paper ](https://arxiv.org/abs/2412.19584)
 
 ### Splatt3R: Zero-shot Gaussian Splatting from Uncalibrated Image Pairs
 
