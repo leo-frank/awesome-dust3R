@@ -15,6 +15,16 @@ Multi-view stereo reconstruction (MVS) in the wild requires to first estimate th
 
 ## Recent Papers:
 
+### Zero-Shot Monocular Scene Flow Estimation in the Wild
+
+**Authors**: Yiqing Liang, Abhishek Badki, Hang Su, James Tompkin, Orazio Gallo
+<details span>
+<summary><b>Abstract</b></summary>
+Large models have shown generalization across datasets for many low-level vision tasks, like depth estimation, but no such general models exist for scene flow. Even though scene flow has wide potential use, it is not used in practice because current predictive models do not generalize well. We identify three key challenges and propose solutions for each. First, we create a method that jointly estimates geometry and motion for accurate prediction. Second, we alleviate scene flow data scarcity with a data recipe that affords us 1M annotated training samples across diverse synthetic scenes. Third, we evaluate different parameterizations for scene flow prediction and adopt a natural and effective parameterization. Our resulting model outperforms existing methods as well as baselines built on large-scale models in terms of 3D end-point error, and shows zero-shot generalization to the casually captured videos from DAVIS and the robotic manipulation scenes from RoboTAP. Overall, our approach makes scene flow prediction more practical in-the-wild.
+
+</details>
+
+[📄Paper ](https://arxiv.org/abs/2501.10357)
 ### Continuous 3D Perception Model with Persistent State
 
 **Authors**: Qianqian Wang, Yifei Zhang, Aleksander Holynski, Alexei A. Efros, Angjoo Kanazawa
